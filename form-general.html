@@ -1,0 +1,307 @@
+<!Doctype html>
+
+<html lang="en">
+
+<head>
+
+<title>School Management Software</title>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="School Management Software">
+<meta name="keywords" content="">
+
+<!----- Designed By Abdulrahman Adam --->
+<!----- E-mail; abdulflezy13@gmail.com --->
+
+<!----------------- CSS Style Sheets ------------------>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<!---/-------------- CSS Style Sheets ------------------>
+
+</head>
+
+<body id="fullscreen">
+<!--onLoad="window.open('dashboard.html', '', 'fullscreen=yes, scrollbars=auto'); window.opener=null; window.close(); return false;"-->
+<div class="container-fluid no_pad_margin">
+	<div id="sidebar">
+		<div class="logo nav_div text-center">
+			<span href="#"><i class="fa fa-lightbulb-o"></i> <span>FLEXISERVE</span></span>
+		</div>
+		<div class="sidebar_content">
+			<div class="nav_img text-center">
+				<span><i class="fa fa-circle-o"></i> </span><img src="img/img.png" class="img-circle" width="110px" height="110px;" /> <span><i class="fa fa-weixin"></i> </span>
+				<p class="text-center"><strong>Abdulrahman Adamu</strong></p>
+				<span class="">Web Developer/Designer</span>
+			</div>
+			<div class="nav_links">
+				<div class="nav_menu_head">
+					<span>Navigation</span>
+				</div>
+				<ul class="links_main">
+					<li><a href="#"><i class="fa fa-bullseye"></i> <span class="hide_me">Dashboard</span></a></li>
+					<li class="has-children <!--open-->"><a href="#"><i class="fa fa-files-o"></i> <span class="hide_me">Pages</span> <i class="fa fa-angle-down pull-right"></i><span class="clearfix"></span></a>
+						<ul class="child-nav">
+							<li><a href="#"><i class="fa fa-picture-o"></i> Gallery</a></li>
+							<li><a href="#"><i class="fa fa-file-pdf-o"></i> Invoice</a></li>
+							<li><a href="#"><i class="fa fa-pencil-square"></i> Edit Profile</a></li>
+							<li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i> Mailbox</a></li>
+							<li><a href="#"><i class="fa fa-key"></i> Login</a></li>
+							<li><a href="#"><i class="fa fa-user-plus"></i> Register</a></li>
+							<li><a href="#"><i class="fa fa-lock"></i> Lock Screen</a></li>
+							<li><a href="#"><i class="fa fa-undo"></i> Error Pages</a></li>
+						</ul>
+					</li>
+					<li class="has-children"><a href="#"><i class="fa fa-cogs"></i> <span class="hide_me">UI Kits</span> <i class="fa fa-angle-down pull-right"></i><span class="clearfix"></span></a>
+						<ul class="child-nav">
+							<li><a href="#"><i class="fa fa-picture-o"></i> Gallery</a></li>
+						</ul>
+					</li>
+					<li class="has-children"><a href="#"><i class="fa fa-pencil"></i> <span class="hide_me">Forms</span> <i class="fa fa-angle-down pull-right"></i><span class="clearfix"></span></a>
+						<ul class="child-nav">
+							<li><a href="#"><i class="fa fa-picture-o"></i> Form Layouts</a></li>
+							<li><a href="#"><i class="fa fa-picture-o"></i> Elements</a></li>
+							<li><a href="#"><i class="fa fa-picture-o"></i> Validation</a></li>
+						</ul>
+					</li>
+					<li class="has-children"><a href="#"><i class="fa fa-table"></i> <span class="hide_me">Tables</span> <i class="fa fa-angle-down pull-right"></i><span class="clearfix"></span></a>
+						<ul class="child-nav">
+							<li><a href="#"><i class="fa fa-th"></i> Basic</a></li>
+							<li><a href="#"><i class="fa fa-th-list"></i> Datatables</a></li>
+							<li><a href="#"><i class="fa fa-cloud-download"></i> Export tables</a></li>
+						</ul>
+					</li>
+					<li class="has-children"><a href="#"><i class="fa fa-line-chart"></i> <span class="hide_me">Charts</span> <i class="fa fa-angle-down pull-right"></i><span class="clearfix"></span></a>
+						<ul class="child-nav">
+							<li><a href="#"><i class="fa fa-th"></i> Chat Js</a></li>
+							<li><a href="#"><i class="fa fa-th-list"></i> Morris Js</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="container-fluid nav_items nav_div">
+			<i class="fa fa-outdent" id="icon_minimize" onClick="minimize();"></i>
+			<ul class="pull-right nav_icons">
+				<li><a href="#"><i class="fa fa-user"></i> </a></li>
+				<li><a href="#"><i class="fa fa-weixin"></i><span class="badge">5</span> </a></li>
+				<li><a href="#"><i class="fa fa-power-off"></i> </a></li>
+			</ul>
+			<span class="clearfix"></span>
+		</div>
+		<div class="content-directory">
+			<a href="#">Home</a> <i class="fa fa-angle-right"></i> <a href="#">Form</a> <i class="fa fa-angle-right"></i> <a href="#">GeneralElements</a>
+		</div>
+		<div class="content-wrapper shrink">
+			<h3>General Form Elements</h3>
+			<div class="content-body shrink">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="custom bg_all yellow-top-border">
+							<h4>Basic Forms Inputs</h4>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-1">Default Input</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-1" placeholder="John Doe" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-2">Email</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-2" placeholder="johndoe@gmail.com" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-3">Search</label>
+									<div class="col-sm-10">
+										<input type="search" class="form-control" id="input-3" placeholder="Search keywords" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-4">Number</label>
+									<div class="col-sm-10">
+										<input type="number" value="34" id="input-4" class="form-control" placeholder="number" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-5">Date</label>
+									<div class="col-sm-10">
+										<input type="date" class="form-control" id="input-5" placeholder="11/11/2019" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-6">Maximum Characters</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-6" placeholder="Maximum characters allowed is 5" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-7">Password</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="input-7" placeholder="*********" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-8">Predefined Value</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-8" value="Predefined set value" placeholder="" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-9">Read Only Field</label>
+									<div class="col-sm-10">
+										<input type="text" readonly class="form-control" id="input-9" placeholder="read only" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-10">Disabled Field</label>
+									<div class="col-sm-10">
+										<input type="text" disabled class="form-control" id="input-10" placeholder="Disabled" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="input-11">Textarea</label>
+									<div class="col-sm-10">
+										<textarea rows="5" class="form-control" id="input-11" placeholder="Default Textarea"></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="button" class="btn btn-primary">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><br/>
+				
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="custom bg_all yellow-top-border">
+							<h4>Vertical Form</h4>
+							<form>
+								<div class="form-group">
+									<label for="email-vr">Email</label>
+									<input type="text" id="email-vr" class="form-control" placeholder="johndoe@gmail.com" />
+								</div>
+								<div class="form-group">
+									<label for="pass-vr">Password</label>
+									<input type="password" id="pass-vr" class="form-control" placeholder="********" />
+								</div>
+								<div class="form-group">
+									<label for="check-vr"><input type="checkbox" id="check-vr" /> Check me</label>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
+						</div>
+						
+						<br/>
+						<div class="custom bg_all yellow-top-border">
+							<h4>Input with icons on left</h4>
+							<form>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+										<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="pass">Password</label>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+										<input id="pass" type="password" class="form-control" name="pass" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="check-vr"><input type="checkbox" id="check-vr" /> Check me</label>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="custom bg_all yellow-top-border">
+							<h4>Horizontal Form</h4>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="email-hr">Email</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="email-hr" placeholder="johndoe@gmail.com" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-sm-2" for="pass-hr">Password</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="pass-hr" placeholder="********" />
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<label for="check-hr"><input type="checkbox" id="check-hr" /> Check me</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="button" class="btn btn-primary">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						
+						<br/>
+						<div class="custom bg_all yellow-top-border">
+							<h4>Input with icons on right</h4>
+							<form>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<div class="input-group">
+										<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="pass">Password</label>
+									<div class="input-group">
+										<input id="pass" type="password" class="form-control" name="pass" placeholder="Password">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="check-vr"><input type="checkbox" id="check-vr" /> Check me</label>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+</div>
+
+</body>
+
+<!-------------- JQuery Files --------------------->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<!---/--------- JQuery Files ---------------------->
+
+<script>
+
+</script>
+
+</html>
